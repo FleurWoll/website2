@@ -1,0 +1,46 @@
+/* Importing Google fonts */
+@import url("https://fonts.googleapis.com/css?family=Lora|Roboto");
+
+/* Importing all components file */
+@import url("Components/container.css");
+@import url("Components/Button.css");
+@import url("Components/banner.css");
+@import url("Components/card.css");
+
+/* General style rules for fonts and colours */
+body {
+	font-family: 'Lora', serif;
+	font-size: 18px;
+	margin: 0px;
+}
+h1 {
+	font-family: Roboto, sans-serif;
+    color: white;
+    font-weight: bold;
+    letter-spacing: 5px;
+    font-size: 50px;
+    letter-spacing: 0.7px;
+}
+
+h2 {
+	font-family: Roboto;
+    color: #white;
+    font-size: 40px;
+    font-weight: light;
+}
+
+h3 {
+	font-family: Edwardian Script ITC;
+	color: #582900;
+    font-size: 50px;
+    font-weight: bold;
+}
+h4 {
+	font-family: Roboto;
+    color: #582900;
+    font-size: 24px;
+    font-weight: lighter;
+}
+a{
+	text-decoration: none;
+}
